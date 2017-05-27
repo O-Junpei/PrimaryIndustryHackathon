@@ -22,7 +22,7 @@ class ResultViewController: UIViewController {
         
         //背景の登録
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "resultBG")?.draw(in: self.view.bounds)
+        UIImage(named: "ResultResult")?.draw(in: self.view.bounds)
         let image: UIImage! = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
