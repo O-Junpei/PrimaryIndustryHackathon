@@ -1,5 +1,5 @@
 //
-//  ModalViewController.swift
+//  ManModalViewController.swift
 //  PrimaryIndustryHackathon
 //
 //  Created by junpei ono on 2017/05/27.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ModalViewController: UIViewController {
-    
-    public var q0:String =  "誕生日"
-    public var q1:String = "結婚記念日"
-    public var q2:String = "プロポーズ"
-    public var q3:String = "その他記念日"
+class ManModalViewController: UIViewController {
+
+    public var q0:String =  "彼氏"
+    public var q1:String = "旦那"
+    public var q2:String = "おじいちゃん"
+    public var q3:String = "お父さん"
     
     var viewWidth:CGFloat!
     var viewHeight:CGFloat!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,7 +26,7 @@ class ModalViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.clear
         //self.view.alpha = 0.7
-
+        
         let selectView:UIView = UIView()
         selectView.frame = CGRect(x: viewWidth*0.1, y: viewHeight*0.1, width: viewWidth*0.8, height: viewHeight*0.8)
         selectView.backgroundColor = UIColor.gray
@@ -35,7 +35,7 @@ class ModalViewController: UIViewController {
         
         let selectViewWidth:CGFloat = viewWidth*0.8
         let selectViewHeight:CGFloat = viewHeight*0.8
-
+        
         
         
         let selectBtn0:UIButton = UIButton()
@@ -78,19 +78,18 @@ class ModalViewController: UIViewController {
         print("basicButtonBtnClicked")
         
         if sender.tag == 0{
-            UseViewController.setUsageLabel(season: q0)
+            UseViewController.setSenttoLabel(season: q0)
         }else if  sender.tag == 1{
-            UseViewController.setUsageLabel(season: q1)
-
+            UseViewController.setSenttoLabel(season: q1)
+            
         }else if  sender.tag == 2{
-            UseViewController.setUsageLabel(season: q2)
-
+            UseViewController.setSenttoLabel(season: q2)
+            
         }else{
-            UseViewController.setUsageLabel(season: q3)
+            UseViewController.setSenttoLabel(season: q3)
         }
         
-         self.dismiss(animated: true)
+        self.dismiss(animated: true)
     }
-
 
 }

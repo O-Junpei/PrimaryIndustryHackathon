@@ -18,6 +18,9 @@
 		8D19BEED1ED937C100F1AEA4 /* UseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEEC1ED937C100F1AEA4 /* UseViewController.swift */; };
 		8D19BEEF1ED9389900F1AEA4 /* ViewPartsSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEEE1ED9389900F1AEA4 /* ViewPartsSize.swift */; };
 		8D19BEF11ED944EB00F1AEA4 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF01ED944EB00F1AEA4 /* ModalViewController.swift */; };
+		8D19BEF31ED9505B00F1AEA4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF21ED9505B00F1AEA4 /* QuestionViewController.swift */; };
+		8D19BEF71ED9626C00F1AEA4 /* ManModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF61ED9626C00F1AEA4 /* ManModalViewController.swift */; };
+		8D19BEF91ED9627C00F1AEA4 /* WoManModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF81ED9627C00F1AEA4 /* WoManModalViewController.swift */; };
 		99D6836EC0571DAF45FE9E77 /* Pods_PrimaryIndustryHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC05E5F7C9805CB0F78F4E3 /* Pods_PrimaryIndustryHackathon.framework */; };
 		C091D880A82251DBE906987C /* Pods_PrimaryIndustryHackathonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD865104631267737B7DF65 /* Pods_PrimaryIndustryHackathonUITests.framework */; };
 		E3A13157ED82D4E1E80BB83E /* Pods_PrimaryIndustryHackathonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0958F09CCDD74B66C5666F /* Pods_PrimaryIndustryHackathonTests.framework */; };
@@ -61,6 +64,9 @@
 		8D19BEEC1ED937C100F1AEA4 /* UseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseViewController.swift; sourceTree = "<group>"; };
 		8D19BEEE1ED9389900F1AEA4 /* ViewPartsSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPartsSize.swift; sourceTree = "<group>"; };
 		8D19BEF01ED944EB00F1AEA4 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		8D19BEF21ED9505B00F1AEA4 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		8D19BEF61ED9626C00F1AEA4 /* ManModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManModalViewController.swift; sourceTree = "<group>"; };
+		8D19BEF81ED9627C00F1AEA4 /* WoManModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoManModalViewController.swift; sourceTree = "<group>"; };
 		BB0958F09CCDD74B66C5666F /* Pods_PrimaryIndustryHackathonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimaryIndustryHackathonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EAB92984DC5CC39781B68B /* Pods-PrimaryIndustryHackathonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimaryIndustryHackathonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimaryIndustryHackathonUITests/Pods-PrimaryIndustryHackathonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DBC05E5F7C9805CB0F78F4E3 /* Pods_PrimaryIndustryHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimaryIndustryHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,9 +140,12 @@
 			children = (
 				8D0FA7A91ED90AC00009D4DA /* AppDelegate.swift */,
 				8D19BEF01ED944EB00F1AEA4 /* ModalViewController.swift */,
+				8D19BEF61ED9626C00F1AEA4 /* ManModalViewController.swift */,
+				8D19BEF81ED9627C00F1AEA4 /* WoManModalViewController.swift */,
 				8D19BEEE1ED9389900F1AEA4 /* ViewPartsSize.swift */,
 				8D0FA7AB1ED90AC00009D4DA /* StartViewController.swift */,
 				8D19BEEC1ED937C100F1AEA4 /* UseViewController.swift */,
+				8D19BEF21ED9505B00F1AEA4 /* QuestionViewController.swift */,
 				8D19BEEA1ED936F800F1AEA4 /* ResultViewController.swift */,
 				8D0FA7AD1ED90AC00009D4DA /* Main.storyboard */,
 				8D0FA7B01ED90AC00009D4DA /* Assets.xcassets */,
@@ -463,10 +472,13 @@
 			files = (
 				8D0FA7AC1ED90AC00009D4DA /* StartViewController.swift in Sources */,
 				8D19BEEF1ED9389900F1AEA4 /* ViewPartsSize.swift in Sources */,
+				8D19BEF91ED9627C00F1AEA4 /* WoManModalViewController.swift in Sources */,
+				8D19BEF31ED9505B00F1AEA4 /* QuestionViewController.swift in Sources */,
 				8D0FA7AA1ED90AC00009D4DA /* AppDelegate.swift in Sources */,
 				8D19BEED1ED937C100F1AEA4 /* UseViewController.swift in Sources */,
 				8D19BEF11ED944EB00F1AEA4 /* ModalViewController.swift in Sources */,
 				8D19BEEB1ED936F800F1AEA4 /* ResultViewController.swift in Sources */,
+				8D19BEF71ED9626C00F1AEA4 /* ManModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +639,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.everyzoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -642,7 +654,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.everyzoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
