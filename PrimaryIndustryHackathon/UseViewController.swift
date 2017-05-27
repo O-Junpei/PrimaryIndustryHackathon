@@ -50,6 +50,7 @@ class UseViewController: UIViewController {
         usageLabel = UILabel()
         usageLabel.text = usageText
         usageLabel.frame = CGRect(x: viewWidth*0.34*0.2, y: viewWidth*0.34*0.5, width: viewWidth*0.34*0.6, height: viewWidth*0.34*0.2)
+        usageLabel.textColor = UIColor.white
         usageeButton.addSubview(usageLabel)
         
         
@@ -67,6 +68,7 @@ class UseViewController: UIViewController {
         //sendToLabel
         sendToLabel = UILabel()
         sendToLabel.text = usageText
+        sendToLabel.textColor = UIColor.white
         sendToLabel.frame = CGRect(x: viewWidth*0.34*0.2, y: viewWidth*0.34*0.5, width: viewWidth*0.34*0.6, height: viewWidth*0.34*0.2)
         sendToButton.addSubview(sendToLabel)
         

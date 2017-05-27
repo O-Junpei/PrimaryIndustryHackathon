@@ -21,6 +21,9 @@
 		8D19BEF31ED9505B00F1AEA4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF21ED9505B00F1AEA4 /* QuestionViewController.swift */; };
 		8D19BEF71ED9626C00F1AEA4 /* ManModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF61ED9626C00F1AEA4 /* ManModalViewController.swift */; };
 		8D19BEF91ED9627C00F1AEA4 /* WoManModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEF81ED9627C00F1AEA4 /* WoManModalViewController.swift */; };
+		8D19BEFB1ED9654A00F1AEA4 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEFA1ED9654A00F1AEA4 /* Question1ViewController.swift */; };
+		8D19BEFD1ED9655C00F1AEA4 /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEFC1ED9655C00F1AEA4 /* Question2ViewController.swift */; };
+		8D19BEFF1ED9656B00F1AEA4 /* Question3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19BEFE1ED9656B00F1AEA4 /* Question3ViewController.swift */; };
 		99D6836EC0571DAF45FE9E77 /* Pods_PrimaryIndustryHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC05E5F7C9805CB0F78F4E3 /* Pods_PrimaryIndustryHackathon.framework */; };
 		C091D880A82251DBE906987C /* Pods_PrimaryIndustryHackathonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD865104631267737B7DF65 /* Pods_PrimaryIndustryHackathonUITests.framework */; };
 		E3A13157ED82D4E1E80BB83E /* Pods_PrimaryIndustryHackathonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0958F09CCDD74B66C5666F /* Pods_PrimaryIndustryHackathonTests.framework */; };
@@ -67,6 +70,9 @@
 		8D19BEF21ED9505B00F1AEA4 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		8D19BEF61ED9626C00F1AEA4 /* ManModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManModalViewController.swift; sourceTree = "<group>"; };
 		8D19BEF81ED9627C00F1AEA4 /* WoManModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoManModalViewController.swift; sourceTree = "<group>"; };
+		8D19BEFA1ED9654A00F1AEA4 /* Question1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
+		8D19BEFC1ED9655C00F1AEA4 /* Question2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
+		8D19BEFE1ED9656B00F1AEA4 /* Question3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question3ViewController.swift; sourceTree = "<group>"; };
 		BB0958F09CCDD74B66C5666F /* Pods_PrimaryIndustryHackathonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimaryIndustryHackathonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EAB92984DC5CC39781B68B /* Pods-PrimaryIndustryHackathonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimaryIndustryHackathonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimaryIndustryHackathonUITests/Pods-PrimaryIndustryHackathonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DBC05E5F7C9805CB0F78F4E3 /* Pods_PrimaryIndustryHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimaryIndustryHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +152,9 @@
 				8D0FA7AB1ED90AC00009D4DA /* StartViewController.swift */,
 				8D19BEEC1ED937C100F1AEA4 /* UseViewController.swift */,
 				8D19BEF21ED9505B00F1AEA4 /* QuestionViewController.swift */,
+				8D19BEFA1ED9654A00F1AEA4 /* Question1ViewController.swift */,
+				8D19BEFC1ED9655C00F1AEA4 /* Question2ViewController.swift */,
+				8D19BEFE1ED9656B00F1AEA4 /* Question3ViewController.swift */,
 				8D19BEEA1ED936F800F1AEA4 /* ResultViewController.swift */,
 				8D0FA7AD1ED90AC00009D4DA /* Main.storyboard */,
 				8D0FA7B01ED90AC00009D4DA /* Assets.xcassets */,
@@ -471,7 +480,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0FA7AC1ED90AC00009D4DA /* StartViewController.swift in Sources */,
+				8D19BEFD1ED9655C00F1AEA4 /* Question2ViewController.swift in Sources */,
+				8D19BEFF1ED9656B00F1AEA4 /* Question3ViewController.swift in Sources */,
 				8D19BEEF1ED9389900F1AEA4 /* ViewPartsSize.swift in Sources */,
+				8D19BEFB1ED9654A00F1AEA4 /* Question1ViewController.swift in Sources */,
 				8D19BEF91ED9627C00F1AEA4 /* WoManModalViewController.swift in Sources */,
 				8D19BEF31ED9505B00F1AEA4 /* QuestionViewController.swift in Sources */,
 				8D0FA7AA1ED90AC00009D4DA /* AppDelegate.swift in Sources */,

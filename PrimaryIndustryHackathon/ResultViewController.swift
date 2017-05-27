@@ -20,28 +20,13 @@ class ResultViewController: UIViewController {
         viewHeight = self.view.frame.height
         
         
+        //背景の登録
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "resultBG")?.draw(in: self.view.bounds)
+        let image: UIImage! = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.view.backgroundColor = UIColor(patternImage: image)
         
-        self.view.backgroundColor = UIColor.green
-        
-        setNavigationBar()
-        
-    }
-    
-    
-    // MARK: NavigationBar
-    func setNavigationBar() {
-        
-        self.navigationController?.navigationBar.isTranslucent = false
-        UINavigationBar.appearance().tintColor = UIColor.white
-        
-        //ナビゲーションアイテムを作成
-        let titleLabel:UILabel = UILabel()
-        titleLabel.frame = CGRect(x: viewWidth*0.3, y: 0, width: viewWidth*0.4, height: PARTS_HEIGHT_NAVIGATION_BAR)
-        titleLabel.textAlignment = NSTextAlignment.center
-        titleLabel.text = "結果画面"
-        titleLabel.textColor = UIColor.black
-        
-        self.navigationItem.titleView = titleLabel
-    }
 
+    }
 }
