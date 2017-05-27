@@ -54,7 +54,7 @@ class Question2ViewController: UIViewController {
         
         let selectBtn3:UIButton = UIButton()
         selectBtn3.frame = CGRect(x: viewWidth*0.6, y: viewHeight*0.6, width: viewWidth*0.3, height: viewHeight*0.3)
-        selectBtn3.setImage(UIImage(named:"7.jpg"), for: UIControlState.normal)
+        selectBtn3.setImage(UIImage(named:"8.jpg"), for: UIControlState.normal)
         selectBtn3.backgroundColor = UIColor.orange
         selectBtn3.addTarget(self, action: #selector(basicButtonClicked(sender:)), for:.touchUpInside)
         selectBtn3.tag = 3
