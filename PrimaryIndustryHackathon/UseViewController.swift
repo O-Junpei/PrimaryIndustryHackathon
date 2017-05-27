@@ -80,12 +80,21 @@ class UseViewController: UIViewController {
     internal func cornerCircleButtonClicked(sender: UIButton){
         print("cornerCircleButtonBtnClicked")
         
+        
+        
+        let vc:ModalViewController = ModalViewController()
+        vc.modalPresentationStyle = .overCurrentContext
+
+        self.present(vc, animated: true, completion: nil)
+        /*
         let alertView = SCLAlertView()
         alertView.addButton("First Button", target:self, selector:Selector(("firstButton")))
         alertView.addButton("Second Button") {
             print("Second button tapped")
         }
         alertView.showSuccess("Button View", subTitle: "This alert view has buttons")
+ 
+ */
     }
 
     
@@ -95,4 +104,7 @@ class UseViewController: UIViewController {
         self.navigationController?.pushViewController(resultVC, animated: true)
         
     }
+    
+    
+
 }
