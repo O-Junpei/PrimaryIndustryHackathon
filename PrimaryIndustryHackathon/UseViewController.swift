@@ -9,7 +9,7 @@
 import UIKit
 import SCLAlertView
 
-public var usageText:String = "dada"
+public var usageText:String = ""
 public var usageLabel:UILabel!
 public var sendToLabel:UILabel!
 
@@ -95,13 +95,14 @@ class UseViewController: UIViewController {
         
         
          let alertView = SCLAlertView()
-         alertView.addButton("男性") {
+        alertView.addButton("女性") {
+            let vc:WoManModalViewController = WoManModalViewController()
+            vc.modalPresentationStyle = .overCurrentContext
+            self.present(vc, animated: true, completion: nil)        }
+        alertView.addButton("男性") {
             let vc:ManModalViewController = ManModalViewController()
             vc.modalPresentationStyle = .overCurrentContext
             self.present(vc, animated: true, completion: nil)
-         }
-        alertView.addButton("女性") {
-            print("Second button tapped")
         }
          alertView.showSuccess("送る相手", subTitle: "送る相手の性別を教えて下さい。")
         
